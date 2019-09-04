@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- used Bootstrap-reboot css library here*/ -->
+<link rel="stylesheet" type="text/css" href="/Users/bensonguan/Documents/CMU/WebApp/bootstrap-4.3.1-dist/css/bootstrap-reboot.css">
+<title>Page Title</title>
+</head>
+<style>
+  div.container{float:left;
+  padding: 1.5rem;}
+  div.food-item{float:left;
+  padding: 1.5rem;}
+  .menu{
+    margin-left: 1rem;
+  }
+  .store{
+    margin-left:15rem;
+  }
+  .orderselection{
+    margin-top:5rem;
+  }
+  .orderlist{
+    margin-left:15rem;
+  }
+
+</style>
+<body>
+
+<div class="header">
+  <a href="#">My Profile</a>
+  <a href="homepage.html">Log out</a>
+</div>
+
+<h1>ABC Restaurant</h1>
+
+<div style="padding-left:3rem">Please select your store:</div>
+<select class="store">
+  <option value="A">Store AAA</option>
+  <option value="B">Store BBB</option>
+  <option value="C">Store CCC</option>
+</select>
+
+<div style="padding-left:3rem" class="orderselection">Please select an order:</div>
+<div class="orderlist">
+  <input type="checkbox" name="order" value="order1"> Order A<br>
+  <input type="checkbox" name="order" value="order2" > Order B<br>
+  <input type="checkbox" name="order" value="order3" > Order C<br>
+  <input type="submit" value="View Order Detail">
+  <input type="submit" value="Fullfill Order" style="margin-left:3rem">
+  <input type="submit" value="Cancel Order" style="margin-left:3rem">
+</div>
+<div>
+</div>
+</body>
+</html>
