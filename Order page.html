@@ -17,7 +17,9 @@
   .store{
     margin-left:15rem;
   }
-
+  .order-body{
+    margin-left: 10rem;
+  }
 
 </style>
 <body>
@@ -36,28 +38,28 @@
  </form>
 </div>
 
-<div class ="order-body">
-  <ul style="margin-left:5rem" class="orderitem">
-  <li>
-    <font size="4" style="padding-right:5rem">Siumai</font>
-    <input type="number" id="order quantity">
-    <font style="padding:1rem">Price:$#</font>
-    <input type="submit" value ="delete">
-  </li>
-  <li>
-    <font size="4" style="padding-right:5rem">Shrimp Ball</font>
-    <input type="number" id="order quantity">
-    <font style="padding:1rem">Price:$#</font>
-    <input type="submit" value ="delete">
-  </li>
-  <li>
-    <font size="4" style="padding-right:5rem" >Beef Ball</font>
-    <input type="number" id="order quantity">
-    <font style="padding:1rem">Price:$#</font>
-    <input type="submit" value ="delete">
-  </li>
-</ul>
-<p style = "margin-left: 8rem">Total Price: # </p>
+<table style="width:50%" class = "order-body">
+
+  <tr>
+    <td><font size="4" style="padding-right:5rem">Siumai</font></td>
+    <td><input type="number" id="order quantity"></td>
+    <td><font style="padding:1rem">Price:$#</font></td>
+    <td><input type="submit" value ="delete"></td>
+  </tr>
+  <tr>
+  <td><font size="4" style="padding-right:5rem">Shrimp Ball</font></td>
+  <td><input type="number" id="order quantity"></td>
+  <td><font style="padding:1rem">Price:$#</font></td>
+  <td><input type="submit" value ="delete"></td>
+  </tr>
+  <tr>
+    <td><font size="4" style="padding-right:5rem" >Beef Ball</font></td>
+    <td><input type="number" id="order quantity"></td>
+    <td><font style="padding:1rem">Price:$#</font></td>
+    <td><input type="submit" value ="delete"></td>
+  </tr>
+</table>
+<p style = "margin-left: 40rem">Total Price: # </p>
 </div>
 <div style="padding-left:3rem">Please select your store:</div>
 <select class="store">
