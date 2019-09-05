@@ -1,0 +1,12 @@
+1. HomePage: better to let customers choose the Quantity they want to order;
+2. Submitted Order: need an option for employees to cancel an order;
+3. Menu Management: A save button might be needed;
+4. Order Page: need an option for customers to delete an order;
+
+Feedback provided by Elena Gong;
+
+1. Order Page: add price of each items and total price;
+2. Submitted Order: have the orders be in checkboxes;
+3. Menu Management: better to have an edit button for each item;
+
+Feedback provided by Zoe Teoh
